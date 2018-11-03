@@ -1,4 +1,5 @@
 /*
+W15664768 Lupe Valle
 fibonacci Sequence hw w/ recursion:
 input nth to caclulate to,
 output sequence
@@ -37,3 +38,21 @@ int main()
   cout << fibo(n) << endl;
   return 0;
 }
+/*
+[gvalle3@hills fibonacci]$ ls
+fibonacci.cpp
+[gvalle3@hills fibonacci]$ g++ fibonacci.cpp
+[gvalle3@hills fibonacci]$ ./a.out
+Input furthest nth term: 5
+Fibonacci: 5
+0 1 1 2 3 5
+[gvalle3@hills fibonacci]$ ./a.out
+Input furthest nth term: 7
+Fibonacci: 13
+0 1 1 2 3 5 8 13
+[gvalle3@hills fibonacci]$ ./a.out
+Input furthest nth term: 9
+Fibonacci: 34
+0 1 1 2 3 5 8 13 21 34
+[gvalle3@hills fibonacci]$
+*/
